@@ -1,0 +1,20 @@
+package com.rfp200batchjava;
+import java.util.Scanner;
+
+public class Test1 {
+
+		public static void main (String[] args) {
+			Areas a = new Areas();
+		
+		}
+		
+		public void rectangle() {
+			Scanner sc = new Scanner(System.in);
+			double length = sc.nextDouble();
+			double breadth = sc.nextDouble();
+			double area = length * breadth();
+			double perimeter = 2 * (length + breadth);
+			System.out.println("This is area of the rectangle : "+ area);
+			System.out.println("This is perimeter of the rectangle : "+ perimeter);
+		}
+}
